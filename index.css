@@ -1,0 +1,71 @@
+:root{
+    font-family: "Avenir", "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+    background-color: #292929;
+    color:white;    
+}
+body{
+    padding: 50px;
+}
+.head-container{
+    text-align: center;
+}
+.padding-bottom {
+    padding-bottom: 50px;
+}
+table, th, td {
+    border: 1px solid rgb(126, 91, 91);
+}
+.anchor-inner{
+    color:aquamarine
+}
+th, td{
+    padding: 3px 10px ;
+}
+.profile-picture{
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50%;
+    margin: 20px;
+    object-fit: cover;
+    object-position: center top;
+}
+.name-hint{
+    margin: 10px;
+    font-weight: 200;
+}
+/* label{
+    padding: 0px 10px;
+} */
+input[type=text], [type=number], [type=date], [type=email], [type=file], [type=image], [type=file], [type=password] {
+    width: 300px;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+}
+.gender{
+    padding: 10px
+}
+.license{
+    padding: 10px
+}
+.button{
+    padding: 7px 20px;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.all-input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%
+}
